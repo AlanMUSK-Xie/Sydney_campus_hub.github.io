@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sydney Campus Hub - 悉尼高校校园服务</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Sydney Campus Hub</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#academic" class="nav-link">学术服务</a></li>
+                <li><a href="#marketplace" class="nav-link">二手交易</a></li>
+                <li><a href="#social" class="nav-link">社交分享</a></li>
+                <li><a href="#jobs" class="nav-link">兼职对接</a></li>
+                <li><a href="#about" class="nav-link">关于我们</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页Banner -->
+    <section class="banner">
+        <div class="banner-content">
+            <h1 class="banner-title">Sydney Campus Hub</h1>
+            <p class="banner-subtitle">悉尼6所高校一站式校园服务，兼顾本地与国际学生</p>
+            <div class="banner-image">
+                <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&h=600&fit=crop" alt="校园场景" id="campusImage">
+            </div>
+        </div>
+    </section>
+
+    <!-- 核心功能入口区 -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <!-- 学术服务卡片 -->
+                <div class="feature-card" onclick="navigateToSection('academic')">
+                    <div class="feature-icon">📚</div>
+                    <h3 class="feature-title">学术服务</h3>
+                    <p class="feature-desc">高校分类、学业查询、资料互助、学术工具入口</p>
+                </div>
+
+                <!-- 二手交易卡片 -->
+                <div class="feature-card" onclick="navigateToSection('marketplace')">
+                    <div class="feature-icon">🛒</div>
+                    <h3 class="feature-title">二手交易</h3>
+                    <p class="feature-desc">闲置物品分类、发布闲置、物品筛选、校内面交指引</p>
+                </div>
+
+                <!-- 社交分享卡片 -->
+                <div class="feature-card" onclick="navigateToSection('social')">
+                    <div class="feature-icon">💬</div>
+                    <h3 class="feature-title">社交分享</h3>
+                    <p class="feature-desc">图文/短视频发布、话题互动、同校社交、帖子筛选</p>
+                </div>
+
+                <!-- 兼职对接卡片 -->
+                <div class="feature-card" onclick="navigateToSection('jobs')">
+                    <div class="feature-icon">💼</div>
+                    <h3 class="feature-title">兼职对接</h3>
+                    <p class="feature-desc">固定兼职查看、Airtasker双向任务、兼职合规提醒</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部区域 -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-contact">
+                <p>邮箱: <a href="mailto:xilinxie2005@gmail.com">xilinxie2005@gmail.com</a></p>
+                <p>电话: <a href="tel:0451226113">0451226113</a></p>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 Sydney Campus Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
